@@ -1,5 +1,10 @@
----
-title: chrisg
----
+<!DOCTYPE html>
+<html>
+<body>
 
-<h1>chrisg</h1>
+<h1>chrig</h1>
+{% for tweet in site.data.all %}
+  <p>{{ tweet.text }}</p>
+{% endfor %}
+</body>
+</html>
